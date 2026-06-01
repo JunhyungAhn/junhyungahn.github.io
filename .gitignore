@@ -19,3 +19,10 @@ package-lock.json
 vendor/
 screenshot-*.png
 docs/
+
+# Next.js build artifacts
+.next/
+out/
+
+# macOS
+.DS_Store
