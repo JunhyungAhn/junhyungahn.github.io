@@ -14,7 +14,7 @@ redirect_from:
 
 I am an incoming PhD student at the [University of Illinois Urbana-Champaign (UIUC) School of Information Sciences](https://ischool.illinois.edu/), starting Fall 2026, where I am fortunate to be advised by [Prof. Yonghan Jung](https://yonghanjung.me/).
 
-Previously, I was an AI Engineer at [NAVER](https://www.naver.com/), where I worked on off-policy evaluation for large-scale online ad auction systems and designed an LLM-as-a-Judge evaluation framework for automated quality assessment of AI-generated search responses, including bias mitigation strategies and an ensemble judging pipeline to replace human annotation at scale. 
+Previously, I was an AI Engineer at [NAVER](https://www.navercorp.com/), where I worked on off-policy evaluation for large-scale online ad auction systems and designed an LLM-as-a-Judge evaluation framework for automated quality assessment of AI-generated search responses, including bias mitigation strategies and an ensemble judging pipeline to replace human annotation at scale. 
 I received my M.S. and B.S. in Electrical Engineering from [KAIST](https://ee.kaist.ac.kr/), advised by [Prof. Changho Suh](https://csuh.kaist.ac.kr/).
 
 ## Research Interests
