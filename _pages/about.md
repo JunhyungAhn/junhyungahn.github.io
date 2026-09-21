@@ -19,10 +19,6 @@ announcements:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
-latest_posts:
-  enabled: false # flip to true once there are blog posts
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
 ---
 
 I am a PhD student at the [University of Illinois Urbana-Champaign (UIUC) School of Information Sciences](https://ischool.illinois.edu/), where I am fortunate to be advised by [Prof. Yonghan Jung](https://yonghanjung.me/).

@@ -17,8 +17,8 @@ bundle exec jekyll serve   # http://localhost:4000
 | News items | `_news/*.md` |
 | Publications | `_bibliography/papers.bib` (`selected={true}` puts a paper on the front page) |
 | CV | `_data/cv.yml`, PDF in `assets/pdf/` |
-| Blog posts | `_posts/*.md` |
 | Social links | `_data/socials.yml` |
 | Site settings | `_config.yml` |
+| Local CSS overrides | `_sass/_local.scss` (loaded from the shadowed `assets/css/main.scss`) |
 
 Deployed by `.github/workflows/deploy.yml`: pushes to `master` build the site and force-push `_site` to the `gh-pages` branch, which GitHub Pages serves.

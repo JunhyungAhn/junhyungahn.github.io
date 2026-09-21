@@ -15,17 +15,17 @@ cv:
   sections:
     Education:
       - institution: University of Illinois Urbana-Champaign
-        location: Champaign, IL, US
+        location: Champaign, IL
         url: https://ischool.illinois.edu/
         area: Information Science
         studyType: PhD
         start_date: 2026
         end_date: 2031
         highlights:
-          - Advisor: Prof. Yonghan Jung.
+          - "Advisor: Prof. Yonghan Jung."
 
       - institution: Korea Advanced Institute of Science and Technology (KAIST)
-        location: Daejeon, Republic of Korea
+        location: Daejeon, Korea
         url: https://ee.kaist.ac.kr/
         area: Electrical Engineering
         studyType: M.S.
@@ -37,7 +37,7 @@ cv:
           - "Thesis: Leveraging Hierarchical Similarity Graphs for Matrix Completion."
 
       - institution: Korea Advanced Institute of Science and Technology (KAIST)
-        location: Daejeon, Republic of Korea
+        location: Daejeon, Korea
         url: https://ee.kaist.ac.kr/
         area: Electrical Engineering
         studyType: B.S.
@@ -50,9 +50,9 @@ cv:
     Experience:
       - company: NAVER
         position: AI Engineer, Causal Inference Team
-        location: Seongnam, Republic of Korea
+        location: Seongnam, Korea
         start_date: 2025-08
-        end_date: 2026-07
+        end_date: 2026-08
         highlights:
           - Off-policy evaluation under deterministic online ad auctions.
           - Kernel-based relaxation methods to reduce variance in importance sampling for deterministic eCPM-based ranking policies.
@@ -61,7 +61,7 @@ cv:
 
       - company: Dable
         position: Machine Learning Engineer, AI Team
-        location: Seoul, Republic of Korea
+        location: Seoul, Korea
         start_date: 2022-03
         end_date: 2025-05
         summary: Technical research personnel (alternative military service). Led a team building conversion-rate prediction models under data bias and scarcity in e-commerce.
@@ -71,7 +71,7 @@ cv:
 
       - company: KAIST, Information System Lab
         position: Master's Researcher
-        location: Daejeon, Republic of Korea
+        location: Daejeon, Korea
         start_date: 2019-02
         end_date: 2022-02
         highlights:
@@ -80,7 +80,7 @@ cv:
 
       - company: SK Telecom, ML Infra Lab
         position: Research Intern
-        location: Seongnam, Republic of Korea
+        location: Seongnam, Korea
         start_date: 2018-03
         end_date: 2018-08
         highlights:

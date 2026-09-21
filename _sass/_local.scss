@@ -1,0 +1,6 @@
+// al_folio_bootstrap_compat ships Bootstrap's `.collapse { display: none; visibility: hidden }`,
+// which also matches the core Tailwind navbar (`.collapse.navbar-collapse`) and hides the nav
+// links. Bootstrap compat is on because the CV templates still emit Bootstrap grid markup.
+.navbar-collapse {
+  visibility: visible;
+}
