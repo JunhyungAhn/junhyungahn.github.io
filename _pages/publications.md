@@ -1,31 +1,20 @@
 ---
-layout: archive
-title: "Publications"
+layout: page
 permalink: /publications/
-author_profile: true
+title: publications
+description: Publications in reverse chronological order.
+nav: true
+nav_order: 1
 ---
 
-<!-- {% if author.googlescholar %} -->
-  
-<!-- {% endif %} -->
-<style type="text/css">
-  body{
-  font-size: 12pt;
-}
-</style>
+<!-- _pages/publications.md -->
 
-{% include base_path %}
-You can also find my papers on <a href="https://scholar.google.com/citations?user=_zOGlFMAAAAJ&hl=ko&oi=ao">Google Scholar</a>.
+<!-- Bibsearch Feature -->
 
------------
+{% include bib_search.liquid %}
 
-{% capture written_year %}'None'{% endcapture %}
-{% for post in site.publications reversed %}
-  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-  {% if year != written_year %}
-## {{ year }}
-    {% capture written_year %}{{ year }}{% endcapture %}
-  {% endif %}
-  {% include archive-single.html %}
-{% endfor %}
+<div class="publications">
 
+{% bibliography %}
+
+</div>

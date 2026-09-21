@@ -1,25 +1,12 @@
 ---
-layout: archive
-title: "CV"
+layout: cv
 permalink: /cv/
-author_profile: true
-redirect_from:
-  - /resume
+title: CV
+nav: true
+nav_order: 3
+cv_pdf: /assets/pdf/CV_202606.pdf # you can also use external links here
+cv_format: rendercv # options: rendercv, jsonresume
+description: Education, experience, awards, and skills. The PDF version is linked above.
+toc:
+  sidebar: left
 ---
-
-{% include base_path %}
-
-📄 [Download CV (PDF)](/files/CV_202606.pdf)
-
----
-
-## Education
-
-**University of Illinois Urbana-Champaign (UIUC)**  
-Ph.D. in Information Science · 2026 - 2031
-
-**Korea Advanced Institute of Science and Technology (KAIST)**  
-M.S. in Electrical Engineering · 2019 – 2022  
-
-**Korea Advanced Institute of Science and Technology (KAIST)**  
-B.S. in Electrical Engineering · 2015 – 2019  

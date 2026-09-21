@@ -1,0 +1,18 @@
+"ICDM":
+  url: https://www.data-mining-forum.de/
+  color: "#b31b1b"
+
+"NeurIPS":
+  url: https://neurips.cc/
+  color: "#00369f"
+
+"IEEE TIT":
+  url: https://www.itsoc.org/publications/ieee-transactions-information-theory
+  color: "#004c97"
+
+"ISIT":
+  url: https://www.itsoc.org/conferences
+  color: "#0b6e4f"
+
+"ICEIC":
+  color: "#6b6b6b"

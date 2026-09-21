@@ -1,28 +1,25 @@
-# Ignore the contents of the _site directory
-_site/
-
-# Ignore the directory for local files during development
-local/
-
-# Ignore the Gemfile that is generated
-Gemfile.lock
-
-# Ingore files created by npm
-node_modules
-package-lock.json
-
-# Development artifacts
-.playwright-mcp/
-.worktrees/
-.bundle/
+_site
+.bundle
+.DS_store
+.idea
+.jekyll-cache
+.jekyll-metadata
 .ruby-version
-vendor/
-screenshot-*.png
-docs/
+.sass-cache
+.tweet-cache
+.venv
+assets/libs/
+assets/rendercv/rendercv_output/*.typ
+al-folio-upgrade-report.md
+node_modules/
+output/playwright/
+test-results/
+vendor
 
-# Next.js build artifacts
-.next/
-out/
+# Python bytecode from bin/ helper scripts
+__pycache__/
+*.pyc
 
-# macOS
 .DS_Store
+.worktrees/
+.playwright-mcp/
