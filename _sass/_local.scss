@@ -4,3 +4,11 @@
 .navbar-collapse {
   visibility: visible;
 }
+
+// The CV date column is `text-center`, but the badge and the location sit in a
+// shrink-to-fit table whose width follows the location string, so badges drift
+// left and right from row to row. Left-align the column so every year badge
+// starts at the same x.
+.cv .date-column {
+  text-align: left;
+}

@@ -25,4 +25,8 @@ I am a PhD student at the [University of Illinois Urbana-Champaign (UIUC) School
 
 Previously, I was an AI Engineer at [NAVER](https://www.navercorp.com/), where I worked on off-policy evaluation for large-scale online ad auction systems and designed an LLM-as-a-Judge evaluation framework for automated quality assessment of AI-generated search responses, including bias mitigation strategies and an ensemble judging pipeline to replace human annotation at scale. I received my M.S. and B.S. in Electrical Engineering from [KAIST](https://ee.kaist.ac.kr/), advised by [Prof. Changho Suh](https://csuh.kaist.ac.kr/).
 
-**Research interests.** *Causal inference* — counterfactual reasoning, off-policy evaluation. *Agentic AI* — LLM-as-a-judge, evaluation bias mitigation. *Recommender systems* — data bias and scarcity, cold-start problems.
+**Research interests**
+
+- **Causal inference** — counterfactual reasoning, off-policy evaluation
+- **Agentic AI** — LLM-as-a-judge, evaluation bias mitigation
+- **Recommender systems** — data bias and scarcity, cold-start problems
