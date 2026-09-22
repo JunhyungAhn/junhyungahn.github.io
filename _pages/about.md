@@ -28,6 +28,6 @@ Previously, I was an AI Engineer at [NAVER](https://www.navercorp.com/), where I
 
 **Research interests**
 
-- **Causal inference** — counterfactual reasoning, off-policy evaluation
-- **Agentic AI** — LLM-as-a-judge, evaluation bias mitigation
-- **Recommender systems** — data bias and scarcity, cold-start problems
+- **Causal inference**: counterfactual reasoning, off-policy evaluation
+- **Agentic AI**: LLM-as-a-judge, evaluation bias mitigation
+- **Recommender systems**: data bias and scarcity, cold-start problems

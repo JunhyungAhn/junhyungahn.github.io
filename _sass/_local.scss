@@ -25,3 +25,8 @@
 .profile .more-info p {
   display: block;
 }
+
+// The about header bolds the first name only; keep the whole name one weight.
+.post-title .font-weight-bold {
+  font-weight: inherit;
+}
