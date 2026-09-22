@@ -9,14 +9,14 @@ last_name: Ahn
 contact_note: >
   Email is the best way to reach me.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  PhD student at UIUC School of Information Sciences, working on causal inference,
+  Ph.D. student at UIUC School of Information Sciences, working on causal inference,
   off-policy evaluation, and evaluation of AI systems.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: Junhyung Ahn, causal inference, off-policy evaluation, recommender systems, UIUC, iSchool
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🧠 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: # emoji used as the favicon (leave blank for none)
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
 
 url: https://junhyungahn.github.io # the base hostname & protocol for your site

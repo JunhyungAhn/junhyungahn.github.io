@@ -30,3 +30,16 @@
 .post-title .font-weight-bold {
   font-weight: inherit;
 }
+
+// UIUC palette instead of the al-folio purple/cyan defaults: Illini Blue for
+// links in light mode, Illini Orange in dark mode (orange on white is too low
+// contrast for body links).
+:root {
+  --global-theme-color: #13294b;
+  --global-hover-color: #ff5f05;
+}
+
+html[data-theme="dark"] {
+  --global-theme-color: #ff5f05;
+  --global-hover-color: #ff8a3d;
+}
