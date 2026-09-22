@@ -12,3 +12,16 @@
 .cv .date-column {
   text-align: left;
 }
+
+// Profile photo: the theme gives it 30% of the content width, which is bigger
+// than this portrait needs. Also keep each address line on its own row — the
+// theme only un-inlines them inside a `.address` wrapper.
+@media (min-width: 576px) {
+  .profile {
+    width: 22%;
+  }
+}
+
+.profile .more-info p {
+  display: block;
+}
