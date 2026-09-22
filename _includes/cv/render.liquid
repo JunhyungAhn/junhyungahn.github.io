@@ -1,0 +1,63 @@
+{% comment %}
+  Local override of al_folio_cv's templates/cv/render.liquid.
+
+  The gem's version always renders a Contact Information card and puts Experience
+  ahead of every other section. This site wants Education first, no contact card,
+  and only the two sections it defines. The per-section sub-includes
+  (cv/education.liquid, cv/experience.liquid) still come from the gem.
+{% endcomment %}
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">
+      {{ page.title }}
+      {% if page.cv_pdf %}
+        <a
+          {% if page.cv_pdf contains '://' %}
+            href="{{ page.cv_pdf }}"
+          {% else %}
+            href="{{ page.cv_pdf | relative_url }}"
+          {% endif %}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="float-right"
+        >
+          <i class="fa-solid fa-file-pdf"></i>
+        </a>
+      {% endif %}
+    </h1>
+    {% if page.description %}
+      <p class="post-description">{{ page.description }}</p>
+    {% endif %}
+  </header>
+
+  <article>
+    <div class="cv">
+      {% assign cv = site.data.cv.cv %}
+
+      {% assign education = cv.sections.Education %}
+      {% if education and education.size > 0 %}
+        <a class="anchor" id="education"></a>
+        <div class="card mt-3 p-3">
+          <h3 class="card-title font-weight-medium">Education</h3>
+          <div>
+            {% assign entries = education | al_cv_sort_by_date %}
+            {% include cv/education.liquid %}
+          </div>
+        </div>
+      {% endif %}
+
+      {% assign experience = cv.sections.Experience %}
+      {% if experience and experience.size > 0 %}
+        <a class="anchor" id="experience"></a>
+        <div class="card mt-3 p-3">
+          <h3 class="card-title font-weight-medium">Experience</h3>
+          <div>
+            {% assign entries = experience | al_cv_sort_by_date %}
+            {% include cv/experience.liquid %}
+          </div>
+        </div>
+      {% endif %}
+    </div>
+  </article>
+</div>

@@ -1,16 +1,7 @@
+# Rendered by _includes/cv/render.liquid (local override of the al_folio_cv gem
+# template): Education first, then Experience. No contact card, so the usual
+# name/label/email header fields are omitted on purpose.
 cv:
-  name: Junhyung Ahn
-  label: PhD Student, School of Information Sciences, UIUC
-  email: ja86@illinois.edu
-  location: Champaign, IL
-  image: ""
-
-  social_networks:
-    - network: GitHub
-      username: JunhyungAhn
-    - network: LinkedIn
-      username: junhyung-ahn-41a114256
-
   sections:
     Education:
       - institution: University of Illinois Urbana-Champaign
@@ -57,15 +48,3 @@ cv:
         start_date: 2022-03
         end_date: 2025-05
         summary: Technical research personnel (alternative military service).
-
-      - company: KAIST, Information System Lab
-        position: Master's Researcher
-        location: Daejeon, Korea
-        start_date: 2019-02
-        end_date: 2022-02
-
-      - company: SK Telecom, ML Infra Lab
-        position: Research Intern
-        location: Seongnam, Korea
-        start_date: 2018-03
-        end_date: 2018-08

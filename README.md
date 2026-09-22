@@ -16,7 +16,7 @@ bundle exec jekyll serve   # http://localhost:4000
 | Bio, profile photo block | `_pages/about.md` |
 | News items | `_news/*.md` |
 | Publications | `_bibliography/papers.bib` (`selected={true}` puts a paper on the front page) |
-| CV | `_data/cv.yml`, PDF in `assets/pdf/` |
+| CV | `_data/cv.yml`, PDF in `assets/pdf/`, layout in `_includes/cv/render.liquid` (overrides the al_folio_cv gem template) |
 | Social links | `_data/socials.yml` |
 | Site settings | `_config.yml` |
 | Local CSS overrides | `_sass/_local.scss` (loaded from the shadowed `assets/css/main.scss`) |
