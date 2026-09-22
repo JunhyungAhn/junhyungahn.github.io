@@ -4,7 +4,6 @@ cv:
   email: ja86@illinois.edu
   location: Champaign, IL
   image: ""
-  summary: PhD student working on causal inference, off-policy evaluation, and the evaluation of AI systems.
 
   social_networks:
     - network: GitHub
@@ -31,7 +30,6 @@ cv:
         studyType: M.S.
         start_date: 2019-02
         end_date: 2022-02
-        score: "GPA 3.91 / 4.3"
         highlights:
           - "Advisor: Prof. Changho Suh."
           - "Thesis: Leveraging Hierarchical Similarity Graphs for Matrix Completion."
@@ -43,7 +41,6 @@ cv:
         studyType: B.S.
         start_date: 2015-03
         end_date: 2019-02
-        score: "GPA 3.93 / 4.3"
         highlights:
           - Magna Cum Laude.
 
@@ -53,88 +50,22 @@ cv:
         location: Seongnam, Korea
         start_date: 2025-08
         end_date: 2026-08
-        highlights:
-          - Off-policy evaluation under deterministic online ad auctions.
-          - Kernel-based relaxation methods to reduce variance in importance sampling for deterministic eCPM-based ranking policies.
-          - Large-scale training and evaluation pipelines over NAVER's ad logs for more reliable offline policy evaluation of production models.
-          - LLM-as-a-Judge evaluation framework for AI-generated search responses, with bias mitigation and an ensemble judging pipeline replacing human annotation at scale.
 
       - company: Dable
         position: Machine Learning Engineer, AI Team
         location: Seoul, Korea
         start_date: 2022-03
         end_date: 2025-05
-        summary: Technical research personnel (alternative military service). Led a team building conversion-rate prediction models under data bias and scarcity in e-commerce.
-        highlights:
-          - "Resolving data bias with causal inference: imputed conversion labels for non-clicked samples via counterfactual inference, giving a 2% gain in offline CVR estimation and a 17% gain in online CVR over prior state of the art (IEEE ICDM 2025, Best Paper Award Finalist)."
-          - "Addressing data scarcity: multi-task and self-supervised learning with embedding augmentation and contrastive losses, giving a 14% gain in online CVR estimation under data-limited conditions."
+        summary: Technical research personnel (alternative military service).
 
       - company: KAIST, Information System Lab
         position: Master's Researcher
         location: Daejeon, Korea
         start_date: 2019-02
         end_date: 2022-02
-        highlights:
-          - "Matrix completion with hierarchical graph side information: characterized the information-theoretic limit on observed entries for perfect recovery and built an optimal, efficient algorithm (18% lower prediction error, 80% less computation). Published at NeurIPS 2020, ISIT 2022, and IEEE Trans. Information Theory 2024."
-          - "Medical image-based patient search with Samsung Medical Center: deep retrieval system reaching 85% accuracy across 14 chest diseases."
 
       - company: SK Telecom, ML Infra Lab
         position: Research Intern
         location: Seongnam, Korea
         start_date: 2018-03
         end_date: 2018-08
-        highlights:
-          - Dynamic learning-rate schedule accelerating convergence 3x at equal accuracy.
-          - Distributed deep learning training system cutting compute cost by 30%.
-
-    Honors and Awards:
-      - title: Best Paper Award Finalist
-        awarder: IEEE ICDM
-        date: 2025-11-01
-
-      - title: Magna Cum Laude
-        awarder: KAIST
-        date: 2019-02-01
-
-      - title: KAIST Support Scholarship (M.S.)
-        awarder: KAIST
-        date: 2019-03-01
-        summary: National full scholarship, M.S. program (~$24,000), Mar 2019 - Dec 2020.
-
-      - title: National Science and Technology Scholarship
-        awarder: Korea Student Aid Foundation
-        date: 2015-03-01
-        summary: National full scholarship, B.S. program (~$15,000), Mar 2015 - Dec 2018.
-
-      - title: KAIST Support Scholarship (B.S.)
-        awarder: KAIST
-        date: 2015-03-01
-        summary: Eight semesters, B.S. program (~$20,000), Mar 2015 - Dec 2018.
-
-    Skills:
-      - name: Programming
-        icon: fa-solid fa-code
-        keywords: "Python, MATLAB, JavaScript, TypeScript, C++"
-
-      - name: Machine Learning
-        icon: fa-solid fa-brain
-        keywords: "PyTorch, TensorFlow, Scikit-learn"
-
-      - name: Data and Visualization
-        icon: fa-solid fa-chart-line
-        keywords: "Pandas, NumPy, Matplotlib, Seaborn"
-
-      - name: Big Data and Distributed Systems
-        icon: fa-solid fa-server
-        keywords: "Spark, Hadoop, Ray"
-
-      - name: Database, Cloud, and DevOps
-        icon: fa-solid fa-cloud
-        keywords: "SQL, AWS, Git, Docker, Kubernetes"
-
-    Languages:
-      - name: Korean
-        summary: "Native"
-
-      - name: English
-        summary: "Fluent (TOEFL iBT 106)"
