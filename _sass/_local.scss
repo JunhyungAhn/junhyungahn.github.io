@@ -43,3 +43,22 @@ html[data-theme="dark"] {
   --global-theme-color: #ff5f05;
   --global-hover-color: #ff8a3d;
 }
+
+// UIUC stripe across the very top of every page: Illini Blue into Illini
+// Orange. It sits above the fixed navbar; the scroll progress bar lives at
+// 56px, so they don't collide. Dark mode uses a lighter blue, since navy on a
+// near-black background reads as a gap in the stripe.
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #13294b 0%, #13294b 30%, #ff5f05 100%);
+  z-index: 1040;
+}
+
+html[data-theme="dark"] body::before {
+  background: linear-gradient(90deg, #4a79b8 0%, #4a79b8 30%, #ff5f05 100%);
+}
