@@ -9,6 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+    <p><a href="mailto:ja86@illinois.edu">ja86@illinois.edu</a></p>
     <p>614 E. Daniel St.</p>
     <p>Champaign, IL 61820</p>
 
