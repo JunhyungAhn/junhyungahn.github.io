@@ -13,7 +13,6 @@ nav_order: 2
     <div class="col-sm-9">
       <div class="title">Information-Theoretic Causal Bounds under Unmeasured Confounding</div>
       <div class="periodical"><em>iSchool Research Showcase</em>, University of Illinois Urbana-Champaign, Oct 2026</div>
-      <div class="periodical">We bound the gap between the observed world and the what-if world with quantities computable from observed data, which gives a valid range for causal effects.</div>
       <div class="links">
         <a href="/files/poster_ischool_showcase_202610.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
       </div>
