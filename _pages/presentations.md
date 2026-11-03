@@ -24,4 +24,21 @@ nav_order: 2
     </div>
   </div>
 </li></ol>
+<h2 class="bibliography">2025</h2>
+<ol class="bibliography"><li>
+  <div class="row align-items-center">
+    <div class="col-sm-9">
+      <div class="title">On Predicting Post-Click Conversion Rate via Counterfactual Inference</div>
+      <div class="periodical"><em>IEEE International Conference on Data Mining (ICDM)</em>, Washington, DC, Nov 2025</div>
+      <div class="links">
+        <a href="/files/slides_icdm_2025.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      </div>
+    </div>
+    <div class="col-sm-3 mt-3 mt-sm-0">
+      <a href="/files/slides_icdm_2025.pdf" target="_blank">
+        <img src="/assets/img/slides_icdm_2025.png" class="img-fluid rounded z-depth-1" alt="Slides preview: On Predicting Post-Click Conversion Rate via Counterfactual Inference">
+      </a>
+    </div>
+  </div>
+</li></ol>
 </div>
