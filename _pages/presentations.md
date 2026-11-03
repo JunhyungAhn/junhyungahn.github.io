@@ -12,7 +12,7 @@ nav_order: 2
   <div class="row align-items-center">
     <div class="col-sm-9">
       <div class="title">Information-Theoretic Causal Bounds under Unmeasured Confounding</div>
-      <div class="periodical"><em>iSchool Research Showcase</em>, University of Illinois Urbana-Champaign, Oct 2026</div>
+      <div class="periodical"><em>iSchool Research Showcase</em>, University of Illinois Urbana-Champaign</div>
       <div class="links">
         <a href="/files/poster_ischool_showcase_202610.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
       </div>
@@ -29,7 +29,7 @@ nav_order: 2
   <div class="row align-items-center">
     <div class="col-sm-9">
       <div class="title">On Predicting Post-Click Conversion Rate via Counterfactual Inference</div>
-      <div class="periodical"><em>IEEE International Conference on Data Mining (ICDM)</em>, Washington, DC, Nov 2025</div>
+      <div class="periodical"><em>IEEE International Conference on Data Mining (ICDM)</em></div>
       <div class="links">
         <a href="/files/slides_icdm_2025.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
       </div>
