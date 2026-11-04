@@ -36,6 +36,11 @@ cv:
           - Magna Cum Laude.
 
     Experience:
+      - company: University of Illinois Urbana-Champaign
+        position: Graduate Research Assistant, School of Information Sciences
+        location: Champaign, IL
+        start_date: 2026-08
+
       - company: NAVER
         position: AI Engineer, Causal Inference Team
         location: Seongnam, Korea
